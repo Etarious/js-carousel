@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CAROUSEL</title>
+    <link rel="shortcut icon" href="./public/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:ital,wght@0,300;0,700;1,400&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <div id="wrapper" class="container is-fullhd">
+        <div id="header">
+            <img id="logo" src="./public/img/logo.png" alt="Logo" style="max-width: 100px; margin-top: 20px;">
+            <h1>JS CAROUSEL</h1>
+        </div>
+        
+
+        <div id="display">
+            <div id="images">
+                <img id="img" src="./public/img/nature1.jpg" alt="Natural 1">
+            </div>
+            
+            <div id="control">
+                <span id="previous" class="cont" onclick="previous()">Previous</span>
+                <span id="next" class="cont" onclick="next()">Next</span>
+            </div>
+            
+        </div>
+
+        <footer id="footer">
+            <span>Powered by <i>Etarious</i></span>
+        </footer>
+    </div>
+
+    <script src="./public/js/scripts.js"></script>
+</body>
+</html>
