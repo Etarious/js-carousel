@@ -41,7 +41,8 @@ h1{
 }
 
 #control{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 #control>.cont{
@@ -51,11 +52,32 @@ h1{
     margin: 0px 10px 0px 10px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #control>.cont:hover{
     background-color: rgb(6, 43, 59);
     box-shadow: 0 0 5px rgba(225, 225, 225, 0.7);
+}
+
+#indicators{
+    padding: 20px;
+}
+
+.point{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.active{
+    border: none;
+    background-color: white;
 }
 
 footer{
@@ -64,6 +86,7 @@ footer{
     padding: 50px;
     margin-top: auto;
     width: 100%;
+    font-family: 'Nunito', sans-serif;
 }
 
 footer>span{

@@ -22,10 +22,16 @@
 
         <div id="display">
             <div id="images">
-                <img id="img" src="./public/img/nature1.jpg" alt="Natural 1">
+                <img id="img" src="./public/img/nature1.jpg" alt="Natural 1" data-index="1">
             </div>
             
             <div id="control">
+                <div id="indicators">
+                    <div class="point active" data-point="1"></div>
+                    <div class="point" data-point="2"></div>
+                    <div class="point" data-point="3"></div>
+                    <div class="point" data-point="4"></div>
+                </div>
                 <span id="previous" class="cont" onclick="previous()">Previous</span>
                 <span id="next" class="cont" onclick="next()">Next</span>
             </div>
